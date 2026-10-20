@@ -1,0 +1,15 @@
+
+# Secrets and local junk
+*.env
+.env*
+*.pem
+*.pfx
+*.key
+secrets/
+**/local.settings.json
+
+# Python cache and local environment
+__pycache__/
+.pytest_cache/
+.venv/
+*.log
