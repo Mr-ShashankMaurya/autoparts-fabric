@@ -1,4 +1,53 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/variableLibrary/definition/variables/1.0.0/schema.json",
-  "variables": []
+  "variables": [
+    {
+      "name": "pg_connection_id",
+      "note": "",
+      "type": "String",
+      "value": "63479dd0-7432-4c5b-82e1-0b874912d1cf"
+    },
+    {
+      "name": "env_name",
+      "note": "",
+      "type": "String",
+      "value": "DEV"
+    },
+    {
+      "name": "pg_database",
+      "note": "",
+      "type": "String",
+      "value": "autoparts_dev"
+    },
+    {
+      "name": "safety_lag_minutes",
+      "note": "",
+      "type": "Integer",
+      "value": 5
+    },
+    {
+      "name": "lock_ttl_minutes",
+      "note": "",
+      "type": "Integer",
+      "value": 120
+    },
+    {
+      "name": "freshness_sla_minutes",
+      "note": "",
+      "type": "Integer",
+      "value": 180
+    },
+    {
+      "name": "alert_email_to",
+      "note": "",
+      "type": "String",
+      "value": "mr.shashankmaurya@gmail.com"
+    },
+    {
+      "name": "bronze_root",
+      "note": "",
+      "type": "String",
+      "value": "Files/bronze"
+    }
+  ]
 }
